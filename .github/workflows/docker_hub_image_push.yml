@@ -7,7 +7,7 @@ on:
 permissions:
   contents: write
 env:
-  IMAGE_NAME: beomkung/myapp 
+  IMAGE_NAME: beomkung/myapp
 
 jobs:
   build-and-push:
