@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - main
-
+permissions:
+  contents: write
 env:
-  IMAGE_NAME: beomkung/myapp # ✅ 꼭 본인 DockerHub 경로로 수정
+  IMAGE_NAME: beomkung/myapp 
 
 jobs:
   build-and-push:
