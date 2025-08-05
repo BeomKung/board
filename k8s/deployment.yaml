@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: myapp-container
-          image: beomkung/myapp:latest
+          image: beomkung/myapp:
           ports:
             - containerPort: 80
