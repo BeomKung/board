@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: beomkung/myapp  # ✅ 꼭 본인 DockerHub 경로로 수정
+  IMAGE_NAME: beomkung/myapp # ✅ 꼭 본인 DockerHub 경로로 수정
 
 jobs:
   build-and-push:
@@ -44,7 +44,7 @@ jobs:
       - name: Checkout manifest branch
         uses: actions/checkout@v4
         with:
-          ref: manifest  # ✅ 'manifest' 브랜치 사전 생성 필요
+          ref: manifest
 
       - name: Update image tag in deployment.yaml
         run: |
